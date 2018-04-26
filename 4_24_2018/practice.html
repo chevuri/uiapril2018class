@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DMV FORM</title>
+        <style>
+            body {
+                background-color: #eeeeee;
+            }
+        </style>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Texas DMV form</h1>
+        <hr>
+        <article>
+            <header>
+                <h2>Applicant information</h2>
+            </header>
+            <section>
+                <form>
+                <div>
+                    <form name="NewLicienceform">
+                        <label for="Firstname">Applicant's first name:</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Enter the firstname"/>
+                </div>
+                <br>
+                    <div>
+                       <label for="Lastname">Applicant's Lastname:</label>
+                        <input type="text" id="Lastname" name="Lastname"placeholder="Enter your lastname"/>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="text" id="Phone Number"name="PhoneNumber"/>
+                    </div>
+                <br>
+                <Div>
+                 <label for="Gender">Applicant's Gender:</label>
+                 <div id="gender">
+                 </Div>
+                    <br>
+                    <div>
+                        <label for="Male">Male:</label>
+                        <input type="radio" id="male" name="gender"/>
+                        <label for="female">Female:</label>
+                        <input type="radio"   id="female" name="gender"/>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="Submit" id="Submit">
+                            <span>Submit</span>
+                        </button>
+                        <button type="reset" id="reset">
+                            <span>Cancel</span>
+                        </button>
+                    </div>
+
+                </form>
+            </section>
+            <footer></footer>
+        </article>
+
+    </body>
+</html>
